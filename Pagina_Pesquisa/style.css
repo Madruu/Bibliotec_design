@@ -1,0 +1,418 @@
+*, *::before, *::after
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: 0;
+    font-family:'Poppins';
+    background-color: #F2F2F2;
+    height: 1820px;
+}
+
+.botao_voltar
+{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    top: 140px;
+    left: 200px;
+}
+
+.search_bar
+{
+    position: relative;
+    width: 926px;
+    height: 74px;
+    top: 71px;
+    left: 505px;
+}
+
+.search_bar .barra_pesquisa
+{
+    display: flex;
+    width: 926px;
+    height: 74px;
+    top: 71px;
+    left: 505px;
+    fill:#fff;
+    filter: drop-shadow(0px 5.219px 18.265px #E5E5E5);
+}
+
+.barra_pesquisa input
+{
+    width: 100%;
+    border: none;
+    padding-left: 100px;
+    font-size: 20px;
+    fill: #fff;
+    border-radius: 5.219px;
+}
+
+.hide
+{
+    display: none;
+}
+
+.barra_pesquisa img
+{
+    position: absolute;
+    left: 40px;
+    top: 23px;
+}
+
+.barra_pesquisa button
+{
+    position: absolute;
+    right: 40px;
+    top: 13px;
+    width: 185px;
+    height: 48px;
+    font-size: 26px;
+    color: #fff;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 900;
+    border-radius: 5.219px;
+    background: #FECC00;
+    border: none;
+}
+
+.resultados_pesquisa
+{
+    position: relative;
+    width: 926px;
+    height: 442px;
+    top: 189px;
+    left: 505px;
+}
+
+.resultados_pesquisa .barra_resultados
+{
+    display: block;
+    position: absolute;
+    width: 926px;
+    height: 442px;
+    background: white;
+    border-radius: 5.219px;
+    filter: drop-shadow(0px 5.219px 18.265px #E5E5E5);
+}
+
+
+.barra_resultados {
+    display: none;
+}
+
+/*.barra_resultados li
+{
+    position: relative;
+    display: block;
+    width: 858px;
+    top: 53px;
+    left: 35px;
+    height: 79px;
+    position: absolute;
+    top: 22px;
+    padding: 10px;
+    left: 80px;
+    font-weight: 400px;
+    color: #9F9292;
+    cursor: pointer;
+    background: #FECC00A1;
+    border-radius: 5.219px;
+    filter: drop-shadow(0px 5.219px 18.265px #E5E5E5);
+}*/
+
+.barra_resultados li
+{
+    display: block;
+    position: relative;
+    left: 20px;
+    top: 40px;
+    width: 858px;
+    height: 79px;;
+    padding: 10px;
+    font-weight: 400px;
+    color: #9F9292;
+    cursor: pointer;
+    background: #FECC00A1;
+    border-radius: 5.219px;
+    filter: drop-shadow(0px 5.219px 18.265px #E5E5E5);
+    margin-bottom: 30px; /* Adicione uma margem na parte inferior para criar espaço entre os elementos */
+}
+
+/*.barra_resultados li h1
+{
+    position: absolute;
+    top: 22px;
+    left: 80px;
+    font-weight: 400px;
+    color: #9F9292;
+}*/
+
+.box_result
+{
+    position: relative;
+    width: 259px;
+    height: 480px;
+    top: 286px;
+    left: 169px;
+}
+
+.box_result .caixa_resultado
+{
+    position: absolute;
+    display: flex;
+    width: 259px;
+    height: 480px;
+    background: white;
+    border-radius: 29px;
+    filter: drop-shadow(0px 5.219px 18.265px #E5E5E5);
+}
+
+.box_result .box_livro
+{
+    position: absolute;
+    display: flex;
+    width: 231px;
+    height: 249px;
+    left: 14px;
+    top: 14px;
+    border-radius: 18px;
+    border: 0.925px solid #FECC00;
+
+}
+
+.box_livro img
+{
+    position: absolute;
+    width: 126px;
+    height: 186px;
+    left: 40px;
+    top:36px;
+}
+
+
+.caixa_resultado h1
+{
+    position: absolute;
+    width: 218px;
+    height: 31px;
+    top: 283px;
+    left:15px;
+    color:#FECC00;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.caixa_resultado h2
+{
+    position: absolute;
+    width: 218px;
+    height: 31px;
+    top: 318px;
+    left: 20px;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600px;
+    line-height: normal;
+    color: #3E4958;
+}
+
+.caixa_resultado button
+{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    top: 390px;
+    left: 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    font-weight: 600px;
+    font-size: 20px;
+    font-style: normal;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    background: #FECC00;
+}
+
+footer {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 516px;
+    align-items: center;
+    justify-content: center;
+    top: 800px;
+}
+
+.logo_utf {
+    position: absolute;
+    height: 100px;
+    top: 150px;
+    left: 300px;
+}
+
+.footer_ui
+{
+    display: inline;
+    width: 1074px;
+    height: 334px;
+    padding: 50px;
+}
+
+.atalhos
+{
+    display: flex;
+    position: relative;
+    top: 300px;
+    right: 190px;
+}
+
+.atalhos p
+{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    /*justify-content: space-between;*/
+    padding: 0px 50px;
+}
+
+.information
+{
+    display: flex;
+    position: relative;
+    width: 500px;
+    height: 121px;
+    left: 716px;
+    top: 0;
+}
+
+.information .endereco
+{
+    position: absolute;
+    top: 2px;
+    font-size: 14px;
+    left:55px;
+    /*width: 410px;
+    /*padding: 0px 40px;*/
+    margin: 0;
+}
+
+.information .icone_localizacao
+{
+    height: 22px;
+    width: 25px;
+}
+
+.information .numero
+{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    text-decoration: none;
+}
+
+.information .telefone
+{
+    position: absolute;
+    left: 5px;
+    top: 35px;
+}
+
+.information .impressora
+{
+    position: absolute;
+    left: 229px;
+    top: 32px;
+}
+
+.information .num_imprimir
+{
+    position: absolute;
+    left: 270px;
+    top: 20px;
+    text-decoration: none;
+}
+
+.social_media
+{
+    position: absolute;
+    display: flex;
+    width:500px;
+    height: 200px;
+    top: 100px;
+}
+
+.social_media p
+{
+    position: absolute;
+    display: flex;
+
+    margin: 0;
+    top: 1px;
+}
+
+.social_media .icones
+{
+    position: absolute;
+    width: 500px;
+    height: 50px;
+}
+
+.icones .symbol_facebook {
+    position: absolute;
+    display: inline;
+    width: 30px;
+    height: 30px;
+    bottom: 30px;
+    left: 130px;
+}
+
+.icones .symbol_twitter
+{
+    position: absolute;
+    display: inline;
+    width: 30px;
+    height: 30px;
+    bottom: 30px;
+    left: 190px;
+}
+
+.icones .symbol_linkedin
+{
+    position: absolute;
+    display: inline;
+    width: 30px;
+    height: 30px;
+    bottom: 30px;
+    left: 250px;
+}
+
+.icones .symbol_youtube
+{
+    position: absolute;
+    display: inline;
+    width: 30px;
+    height: 30px;
+    bottom: 30px;
+    left: 310px;
+}
+
+.icones .symbol_instagram
+{
+    position: absolute;
+    display: inline;
+    width: 30px;
+    height: 30px;
+    bottom: 30px;
+    left: 370px;
+}

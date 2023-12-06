@@ -1,0 +1,142 @@
+*, *::before, *::after 
+{
+  box-sizing: border-box;
+}
+
+body
+{
+    margin: 0;
+    font-family:'Poppins';
+    height: 1080px;
+    background-color: #F2F2F2;
+}
+
+img
+{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.titulo_livro
+{
+    position: relative;
+    top: 164px;
+    left: 1030px;
+    width: 967px;
+    height: 83px;
+}
+
+.titulo_livro h1
+{
+    display: flex;
+    color:#FECC00;
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.sobre_livro
+{
+    position: relative;
+    display: flex;
+    width: 588px;
+    height: 239px;
+    top: 202px;
+    left: 1030px;
+    color: #1E1D1D;
+}
+
+.sobre_livro p
+{
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    text-align: justify;
+}
+
+.livro_calculo
+{
+    position: absolute;
+    display: inline;
+    width: 395px;
+    height: 535px;
+    top: 300px;
+    left: 227px;
+}
+
+.localizacao
+{
+    position: relative;
+    display: flex;
+    width: 584px;
+    height: 64px;
+    top: 344px;
+    left: 1030px;
+    border-radius: 6px;
+    background: #F2F2F2;
+    box-shadow: -1px 4px 9px 0px rgba(0, 0, 0, 0.10), -5px 15px 16px 0px rgba(0, 0, 0, 0.09), -12px 34px 22px 0px rgba(0, 0, 0, 0.05), -21px 61px 26px 0px rgba(0, 0, 0, 0.01), -32px 95px 28px 0px rgba(0, 0, 0, 0.00);
+}
+
+.inside_text
+{
+    position: relative;
+    display: flex;
+    width: 420px;
+    height: 40px;
+    top: 12px;
+    /*left: 32;*/
+}
+
+.inside_text p
+{
+    position: absolute;
+    margin: 0;
+    display: inline;
+    text-align: center;
+    top: 2px;
+    left: 217px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.inside_text img {
+    position: absolute;
+    top: 0; /* Ajuste conforme necessário */
+    left: 10; /* Ajuste conforme necessário */
+    width: 48px;
+    height: 48px;
+}
+
+.reservar_area
+{
+    position: relative;
+    width:279px;
+    height: 64px;
+    left: 1282px;
+    top: 439px;
+    border-radius: 32px;
+    color: #FECC00;
+}
+
+.reservar_area button
+{
+    position: relative;
+    width: 279px;
+    height: 64px;
+    top: 30px;
+    right: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    font-weight: 600px;
+    font-size: 20px;
+    font-style: normal;
+    border: none;
+    cursor: pointer;
+    border-radius: 32px;
+    background: #FECC00;
+}
+

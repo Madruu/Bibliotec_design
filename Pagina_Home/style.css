@@ -1,0 +1,502 @@
+*, *::before, *::after 
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: 0;
+    line-height: 1;
+    height: 1820px;
+    font-family:'Poppins';
+    background-color: #F2F2F2;
+}
+
+
+
+footer {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 516px;
+    align-items: center;
+    justify-content: center;
+    top: 800px;
+}
+
+.logo_utf {
+    position: absolute;
+    height: 100px;
+    top: 150px;
+    left: 300px;
+}
+
+.footer_ui
+{
+    display: inline;
+    width: 1074px;
+    height: 334px;
+    padding: 50px;
+}
+
+.atalhos
+{
+    display: flex;
+    position: relative;
+    top: 300px;
+    right: 190px;
+}
+
+.atalhos p
+{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    /*justify-content: space-between;*/
+    padding: 0px 50px;
+}
+
+.information
+{
+    display: flex;
+    position: relative;
+    width: 500px;
+    height: 121px;
+    left: 716px;
+    top: 0;
+}
+
+.information .endereco
+{
+    position: absolute;
+    top: 2px;
+    font-size: 14px;
+    left:55px;
+    /*width: 410px;
+    /*padding: 0px 40px;*/
+    margin: 0;
+}
+
+.information .icone_localizacao
+{
+    height: 22px;
+    width: 25px;
+}
+
+.information .numero
+{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    text-decoration: none;
+}
+
+.information .telefone
+{
+    position: absolute;
+    left: 5px;
+    top: 35px;
+}
+
+.information .impressora
+{
+    position: absolute;
+    left: 229px;
+    top: 32px;
+}
+
+.information .num_imprimir
+{
+    position: absolute;
+    left: 270px;
+    top: 20px;
+    text-decoration: none;
+}
+
+.social_media
+{
+    position: absolute;
+    display: flex;
+    width:500px;
+    height: 200px;
+    top: 100px;
+}
+
+.social_media p
+{
+    position: absolute;
+    display: flex;
+
+    margin: 0;
+    top: 1px;
+}
+
+.social_media .icones
+{
+    position: absolute;
+    width: 500px;
+    height: 50px;
+}
+
+.icones .symbol_facebook {
+    position: absolute;
+    display: inline;
+    width: 30px;
+    height: 30px;
+    bottom: 30px;
+    left: 130px;
+}
+
+.icones .symbol_twitter
+{
+    position: absolute;
+    display: inline;
+    width: 30px;
+    height: 30px;
+    bottom: 30px;
+    left: 190px;
+}
+
+.icones .symbol_linkedin
+{
+    position: absolute;
+    display: inline;
+    width: 30px;
+    height: 30px;
+    bottom: 30px;
+    left: 250px;
+}
+
+.icones .symbol_youtube
+{
+    position: absolute;
+    display: inline;
+    width: 30px;
+    height: 30px;
+    bottom: 30px;
+    left: 310px;
+}
+
+.icones .symbol_instagram
+{
+    position: absolute;
+    display: inline;
+    width: 30px;
+    height: 30px;
+    bottom: 30px;
+    left: 370px;
+}
+
+.buttons_access
+{
+    position: relative;
+    display: flex;
+    width: 1320px;
+    height: 300px;
+    top: 500px;
+    left: 300px;
+}
+
+.buttons_access .bottao_livros
+{
+    position: absolute;
+    display: flex;
+    width: 300px;
+    height: 300px;
+
+    border-radius: 10px;
+    background: #FECC00;
+    filter: drop-shadow(-1px 4px 9px rgba(0, 0, 0, 0.10)) drop-shadow(-5px 15px 16px rgba(0, 0, 0, 0.09)) drop-shadow(-12px 34px 22px rgba(0, 0, 0, 0.05)) drop-shadow(-21px 61px 26px rgba(0, 0, 0, 0.01)) drop-shadow(-32px 95px 28px rgba(0, 0, 0, 0.00));
+}
+
+.bottao_livros .livro
+{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 75px;
+    left: 75px;
+}
+
+.bottao_livros h1
+{
+    position: absolute;
+    margin:0;
+    size: 26px;
+    left: 110px;
+    bottom: 10px;
+    line-height: 39px;
+    align-items: center;
+    font-weight: 700; 
+}
+
+.buttons_access .bottao_renovacao
+{
+    position: absolute;
+    display: flex;
+    width: 300px;
+    height: 300px;
+    left: 400px;
+
+
+    border-radius: 10px;
+    background: #FECC00;
+    filter: drop-shadow(-1px 4px 9px rgba(0, 0, 0, 0.10)) drop-shadow(-5px 15px 16px rgba(0, 0, 0, 0.09)) drop-shadow(-12px 34px 22px rgba(0, 0, 0, 0.05)) drop-shadow(-21px 61px 26px rgba(0, 0, 0, 0.01)) drop-shadow(-32px 95px 28px rgba(0, 0, 0, 0.00));
+}
+
+.bottao_renovacao .renova
+{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 75px;
+    left: 75px;
+}
+
+.bottao_renovacao h1
+{
+    position: absolute;
+    margin:0;
+    size: 26px;
+    left: 90px;
+    bottom: 10px;
+    line-height: 39px;
+    align-items: center;
+    font-weight: 700; 
+}
+
+.buttons_access .bottao_multas
+{
+    position: absolute;
+    display: flex;
+    width: 300px;
+    height: 300px;
+    left: 800px;
+
+    border-radius: 10px;
+    background: #FECC00;
+    filter: drop-shadow(-1px 4px 9px rgba(0, 0, 0, 0.10)) drop-shadow(-5px 15px 16px rgba(0, 0, 0, 0.09)) drop-shadow(-12px 34px 22px rgba(0, 0, 0, 0.05)) drop-shadow(-21px 61px 26px rgba(0, 0, 0, 0.01)) drop-shadow(-32px 95px 28px rgba(0, 0, 0, 0.00));
+}
+
+.bottao_multas .multas
+{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 75px;
+    left: 75px;
+}
+
+.bottao_multas h1
+{
+    position: absolute;
+    margin:0;
+    size: 26px;
+    left: 110px;
+    bottom: 10px;
+    line-height: 39px;
+    align-items: center;
+    font-weight: 700; 
+}
+
+.buttons_access .bottao_feedback
+{
+    position: absolute;
+    display: flex;
+    width: 300px;
+    height: 300px;
+    left: 1200px;
+
+    border-radius: 10px;
+    background: #FECC00;
+    filter: drop-shadow(-1px 4px 9px rgba(0, 0, 0, 0.10)) drop-shadow(-5px 15px 16px rgba(0, 0, 0, 0.09)) drop-shadow(-12px 34px 22px rgba(0, 0, 0, 0.05)) drop-shadow(-21px 61px 26px rgba(0, 0, 0, 0.01)) drop-shadow(-32px 95px 28px rgba(0, 0, 0, 0.00));
+}
+
+.bottao_feedback .feedback
+{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 75px;
+    left: 75px;
+}
+
+.bottao_feedback h1
+{
+    position: absolute;
+    margin:0;
+    size: 26px;
+    left: 90px;
+    bottom: 10px;
+    line-height: 39px;
+    align-items: center;
+    font-weight: 700; 
+}
+.image_container
+{
+    display: flex;
+    margin: 0;
+    width: 100%;
+    height: 644px;
+    flex-shrink: 0;
+    align-items: center;
+    
+}
+
+.carousel .titulo_pagina
+{
+    position: absolute;
+    display:inline;
+    top: 350px;
+    left: 810px;
+    z-index: 6;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: 10.56px;
+    line-height: normal;
+} 
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(90deg, rgba(254, 204, 0, 0.49) 0%, rgba(92, 75, 3, 0.45) 100%);
+    filter: blur(50px);
+    z-index: 3;
+
+}
+
+.carrossel
+{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+
+}
+
+.carousel {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.carousel > ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: 200ms opacity ease-in-out;
+  transition-delay: 200ms;
+}
+
+.slide > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.slide[data-active] {
+  opacity: 1;
+  z-index: 1;
+  transition-delay: 0ms;
+}
+
+.carousel-button {
+  position: absolute;
+  z-index: 2;
+  background: none;
+  border: none;
+  font-size: 4rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgba(255, 255, 255, .5);
+  cursor: pointer;
+  border-radius: .25rem;
+  padding: 0 .5rem;
+  background-color: rgba(0, 0, 0, .1);
+}
+
+.carousel-button:hover,
+.carousel-button:focus {
+  color: white;
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.carousel-button:focus {
+  outline: 1px solid black;
+}
+
+.carousel-button.prev {
+    color: white;
+    left: 1rem;
+    z-index: 4;
+}
+
+.carousel-button.next {
+    color: white;
+    right: 1rem;
+    z-index: 4;
+}
+
+
+/*.image_container .imagem_inicial
+{
+    position: relative;
+    display: inline;
+    width: 100%;
+    z-index: 2;
+}
+
+.image_container .segunda_imagem
+{
+    position: relative;
+    display: inline;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.image_container .terceira_imagem
+{
+    position: relative;
+    display: inline;
+    width: 100%;
+    top: 0;
+    z-index: 0;
+}
+
+.image_container .eclipse_1
+{
+    display: flex;
+    position: absolute;
+    top: 800px;
+    left: 967px;
+}
+
+.image_container .eclipse_2
+{
+    display: flex;
+    position: absolute;
+    top: 800px;
+    left: 1040px;
+}
+
+.image_container .eclipse_3
+{
+    display: flex;
+    position: absolute;
+    top: 800px;
+    left: 1110px;
+}*/
+

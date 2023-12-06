@@ -1,0 +1,290 @@
+*, *::before, *::after 
+{
+  box-sizing: border-box;
+}
+
+body
+{
+    margin: 0;
+    font-family: 'Poppins';
+    background-color: #F2F2F2;
+}
+
+
+img
+{
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.label_feedback
+{
+    position: relative;
+    width: 467px;
+    height: 83px;
+    top: 100px;
+    left: 146px;
+}
+
+.label_feedback p
+{
+    font-weight: 500;
+    font-size: 64px;
+    color: #FECC00;
+}
+
+.campo_email
+{
+    position: relative;
+    width: 710px;
+    height: 166px;
+    top: 226px;
+    left: 665px;
+}
+
+.campo_email p
+{
+    width: 654px;
+    height: 43px;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.campo_email .entrar_email
+{
+    border-radius: 11px;
+    border: 1px;
+    width: 710px;
+    height: 106px;
+}
+
+.entrar_email .balao_email
+{
+    border-radius: 11px;
+    border: 2px;
+    width: 710px;
+    height: 106px;
+}
+
+.campo_mensagem
+{
+    position: relative;
+    width: 710px;
+    height: 414px;
+    top: 427px;
+    left: 665px;
+}
+
+.campo_mensagem .entrar_feedback
+{
+    width: 710px;
+    height: 336px;
+    border-radius: 11px;
+    border: 1px;
+}
+
+.entrar_feedback .balao_feedback
+{
+    border-radius: 11px;
+    border: 2px;
+    width: 710px;
+    height: 336px;
+}
+
+.campo_mensagem p
+{
+    font-weight: 400;
+    font-size: 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 516px;
+    align-items: center;
+    justify-content: center;
+    top: 800px;
+}
+
+.logo_utf {
+    position: absolute;
+    height: 100px;
+    top: 150px;
+    left: 300px;
+}
+
+.footer_ui
+{
+    display: inline;
+    width: 1074px;
+    height: 334px;
+    padding: 50px;
+}
+
+.atalhos
+{
+    display: flex;
+    position: relative;
+    top: 300px;
+    right: 190px;
+}
+
+.atalhos p
+{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    /*justify-content: space-between;*/
+    padding: 0px 50px;
+}
+
+.information
+{
+    display: flex;
+    position: relative;
+    width: 500px;
+    height: 121px;
+    left: 716px;
+    top: 0;
+}
+
+.information .endereco
+{
+    position: absolute;
+    top: 2px;
+    font-size: 14px;
+    left:55px;
+    /*width: 410px;
+    /*padding: 0px 40px;*/
+    margin: 0;
+}
+
+.information .icone_localizacao
+{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    height: 22px;
+    width: 25px;
+}
+
+.information .numero
+{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    text-decoration: none;
+}
+
+.information .telefone
+{
+    position: absolute;
+    left: 5px;
+    top: 35px;
+}
+
+.information .impressora
+{
+    position: absolute;
+    left: 229px;
+    top: 32px;
+}
+
+.information .num_imprimir
+{
+    position: absolute;
+    left: 270px;
+    top: 20px;
+    text-decoration: none;
+}
+
+.social_media
+{
+    position: absolute;
+    display: flex;
+    width:500px;
+    height: 200px;
+    top: 100px;
+}
+
+.social_media p
+{
+    position: absolute;
+    display: flex;
+
+    margin: 0;
+    top: 1px;
+}
+
+.social_media .icones
+{
+    position: absolute;
+    width: 500px;
+    height: 50px;
+}
+
+.icones .symbol_facebook {
+    position: absolute;
+    display: inline;
+    width: 30px;
+    height: 30px;
+    bottom: 30px;
+    left: 130px;
+}
+
+.icones .symbol_twitter
+{
+    position: absolute;
+    display: inline;
+    width: 30px;
+    height: 30px;
+    bottom: 30px;
+    left: 190px;
+}
+
+.icones .symbol_linkedin
+{
+    position: absolute;
+    display: inline;
+    width: 30px;
+    height: 30px;
+    bottom: 30px;
+    left: 250px;
+}
+
+.icones .symbol_youtube
+{
+    position: absolute;
+    display: inline;
+    width: 30px;
+    height: 30px;
+    bottom: 30px;
+    left: 310px;
+}
+
+.icones .symbol_instagram
+{
+    position: absolute;
+    display: inline;
+    width: 30px;
+    height: 30px;
+    bottom: 30px;
+    left: 370px;
+}

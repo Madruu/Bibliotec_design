@@ -1,0 +1,486 @@
+*, *::before, *::after 
+{
+  box-sizing: border-box;
+}
+
+body
+{
+    margin: 0;
+    font-family:'Poppins';
+    height: 1080px;
+    background-color: #F2F2F2;
+}
+
+
+.icone_back
+{
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+#titulo
+{
+    position: relative;
+    width: 467px;
+    height: 83px;
+    top: 100px;
+    left: 146px;
+    font-weight: 400;
+    size: 64px;
+    line-height: 96px;
+    color: #FECC00;
+}
+
+.campo_nome
+{
+    position: relative;
+    top: 203px;
+    left: 146px;
+    width: 261px;
+    height: 53px;
+}
+
+.campo_nome .balao_nome
+{
+    width: 261px;
+    height: 53px;
+    justify-content: center;
+    border-radius: 9px;
+    background: rgba(37, 34, 34, 0.15);
+}
+
+.balao_nome p
+{
+    position: absolute;
+    left: 48px;
+    top: 11px;
+    margin: 0;
+    font-size: 20px;;
+}
+
+.campo_autor
+{
+    position: relative;
+    width: 170px;
+    height: 53px;
+    top: 150px;
+    left: 530px;
+}
+
+.campo_autor .balao_autor
+{
+    width: 170px;
+    height: 53px;
+    justify-content: center;
+    border-radius: 9px;
+    background: rgba(37, 34, 34, 0.15);
+}
+
+.balao_autor p
+{
+    position: absolute;
+    left:46px;
+    top: 11px;
+    margin: 0;
+    font-size: 20px;
+}
+
+.campo_data_inicial
+{
+    position: relative;
+    width: 170px;
+    height: 53px;
+    left: 823px;
+    top: 98px;
+}
+
+.campo_data_inicial .balao_data_inicial
+{
+    width: 170px;
+    height: 53px;
+    justify-content: center;
+    border-radius: 9px;
+    background: rgba(37, 34, 34, 0.15);
+}
+
+.balao_data_inicial p
+{
+    position: absolute;
+    left: 30px;
+    top: 11px;
+    margin: 0;
+    font-size: 20px;
+}
+
+.campo_abaixo_data
+{
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+
+
+.campo_data_final
+{
+    position: relative;
+    width: 170px;
+    height: 53px;
+    left: 1123px;
+    top: 45px;
+}
+
+.campo_data_final .balao_data_final
+{
+    width: 170px;
+    height: 53px;
+    justify-content: center;
+    border-radius: 9px;
+    background: rgba(37, 34, 34, 0.15);
+}
+
+.balao_data_final p
+{
+    position: absolute;
+    left: 30px;
+    top: 11px;
+    margin: 0;
+    font-size: 20px;
+}
+
+.campo_abaixo_final
+{
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+
+.campo_preco
+{
+    position: relative;
+    width: 170px;
+    height: 53px;
+    left: 1423px;
+    bottom: 7px;
+}
+
+.campo_preco .balao_preco
+{
+    width: 170px;
+    height: 53px;
+    justify-content: center;
+    border-radius: 9px;
+    background: rgba(37, 34, 34, 0.15);
+}
+
+.balao_preco p
+{
+    position: absolute;
+    left: 43px;
+    top: 11px;
+    margin: 0;
+    font-size: 20px;
+}
+
+.campo_pagar
+{
+    position: relative;
+    width: 170px;
+    height: 53px;
+    left: 1736px;
+    bottom: 58px;
+}
+
+.campo_pagar .balao_pagar
+{
+    width: 170px;
+    height: 53px;
+    justify-content: center;
+    border-radius: 9px;
+    background: #FECC00;
+}
+
+.balao_pagar p
+{
+    position: absolute;
+    left: 50px;
+    top: 11px;
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+footer {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 516px;
+    align-items: center;
+    justify-content: center;
+    top: 800px;
+    z-index: 1;
+}
+
+.logo_utf {
+    position: absolute;
+    height: 100px;
+    top: 150px;
+    left: 300px;
+}
+
+.footer_ui
+{
+    display: inline;
+    width: 1074px;
+    height: 334px;
+    padding: 50px;
+}
+
+.atalhos
+{
+    display: flex;
+    position: relative;
+    top: 300px;
+    right: 190px;
+}
+
+.atalhos p
+{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    /*justify-content: space-between;*/
+    padding: 0px 50px;
+}
+
+.information
+{
+    display: flex;
+    position: relative;
+    width: 500px;
+    height: 121px;
+    left: 716px;
+    top: 0;
+}
+
+.information .endereco
+{
+    position: absolute;
+    top: 2px;
+    font-size: 14px;
+    left:55px;
+    /*width: 410px;
+    /*padding: 0px 40px;*/
+    margin: 0;
+}
+
+.information .icone_localizacao
+{
+    height: 22px;
+    width: 25px;
+}
+
+.information .numero
+{
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    text-decoration: none;
+}
+
+.information .telefone
+{
+    position: absolute;
+    left: 5px;
+    top: 35px;
+}
+
+.information .impressora
+{
+    position: absolute;
+    left: 229px;
+    top: 32px;
+}
+
+.information .num_imprimir
+{
+    position: absolute;
+    left: 270px;
+    top: 20px;
+    text-decoration: none;
+}
+
+.social_media
+{
+    position: absolute;
+    display: flex;
+    width:500px;
+    height: 200px;
+    top: 100px;
+}
+
+.social_media p
+{
+    position: absolute;
+    display: flex;
+
+    margin: 0;
+    top: 1px;
+}
+
+.social_media .icones
+{
+    position: absolute;
+    width: 500px;
+    height: 50px;
+}
+
+.icones .symbol_facebook {
+    position: absolute;
+    display: inline;
+    width: 30px;
+    height: 30px;
+    bottom: 30px;
+    left: 130px;
+}
+
+.icones .symbol_twitter
+{
+    position: absolute;
+    display: inline;
+    width: 30px;
+    height: 30px;
+    bottom: 30px;
+    left: 190px;
+}
+
+.icones .symbol_linkedin
+{
+    position: absolute;
+    display: inline;
+    width: 30px;
+    height: 30px;
+    bottom: 30px;
+    left: 250px;
+}
+
+.icones .symbol_youtube
+{
+    position: absolute;
+    display: inline;
+    width: 30px;
+    height: 30px;
+    bottom: 30px;
+    left: 310px;
+}
+
+.icones .symbol_instagram
+{
+    position: absolute;
+    display: inline;
+    width: 30px;
+    height: 30px;
+    bottom: 30px;
+    left: 370px;
+}
+
+.livro_reservado
+{
+    position: relative;
+    width: 910px;
+    height: 321px;
+    left: 265px;
+    top: 151px;
+}
+
+.livro_reservado .container
+{
+    position: relative;
+    width: 910px;
+    height: 321px;
+    left: 265px;
+    bottom: 255px;
+    border-radius: 13px;
+    border: 2px;
+    display: flex;
+    background: var(--gray-white, #FFF);
+    box-shadow: 0px 33.412px 33.412px 0px rgba(0, 0, 0, 0.08), 0px 0px 3.341px 0px rgba(0, 0, 0, 0.12);
+    z-index: 6;
+}
+
+.container .icones .check_reservado
+{
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    left: 90px;
+    top: 70px;
+}
+
+.container .icones .fechar_amarelo
+{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 28px;
+    left: 856px;
+}
+
+.container .esta_reservado
+{
+    position: absolute;
+    width: 501px;
+    height: 40px;
+    top: 45px;
+    left: 200px;
+
+}
+
+.esta_reservado h1
+{
+    font-size: 30px;
+    font-weight: 600px;
+    line-height: normal;
+
+}
+
+.container .texto_reserva
+{
+    position: absolute;
+    width: 643px;
+    height: 148px;
+    right: 66px;
+    bottom: 60.14px;
+}
+
+.container .botao_copiar
+{
+    position: absolute;
+    width: 111px;
+    height: 36px;
+    top: 242px;
+    left: 165px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    background: #FECC00;
+}
+
+.botao_copiar p
+{
+    position: absolute;
+    left: 27px;
+    top: 7px;
+    margin: 0;
+    font-weight: 600;
+    size: 14px;
+
+}
+
+.texto_reserva p
+{
+    color:rgba(84, 89, 94, 0.60);
+    font-size: 23px;
+    font-weight: 400;
+}

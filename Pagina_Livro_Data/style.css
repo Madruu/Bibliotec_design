@@ -1,0 +1,319 @@
+*, *::before, *::after 
+{
+  box-sizing: border-box;
+}
+
+body
+{
+    margin: 0;
+    font-family:'Poppins';
+    height: 1820px;
+    background-color: #F2F2F2;
+}
+
+img
+{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.titulo_livro
+{
+    position: relative;
+    top: 164px;
+    left: 1030px;
+    width: 967px;
+    height: 83px;
+}
+
+.titulo_livro h1
+{
+    display: flex;
+    color:#FECC00;
+    font-size: 64px;
+    font-weight: 400;
+}
+
+.sobre_livro
+{
+    position: relative;
+    display: flex;
+    width: 588px;
+    height: 239px;
+    top: 202px;
+    left: 1030px;
+    color: #1E1D1D;
+}
+
+.sobre_livro p
+{
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+    text-align: justify;
+}
+
+.livro_calculo
+{
+    position: absolute;
+    display: inline;
+    width: 395px;
+    height: 535px;
+    top: 300px;
+    left: 227px;
+}
+
+.localizacao
+{
+    position: relative;
+    display: flex;
+    width: 584px;
+    height: 64px;
+    top: 344px;
+    left: 1030px;
+    border-radius: 6px;
+    background: #F2F2F2;
+    box-shadow: -1px 4px 9px 0px rgba(0, 0, 0, 0.10), -5px 15px 16px 0px rgba(0, 0, 0, 0.09), -12px 34px 22px 0px rgba(0, 0, 0, 0.05), -21px 61px 26px 0px rgba(0, 0, 0, 0.01), -32px 95px 28px 0px rgba(0, 0, 0, 0.00);
+}
+
+.inside_text
+{
+    position: relative;
+    display: flex;
+    width: 420px;
+    height: 40px;
+    top: 12px;
+    /*left: 32;*/
+}
+
+.inside_text p
+{
+    position: absolute;
+    margin: 0;
+    display: inline;
+    text-align: center;
+    top: 2px;
+    left: 217px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.inside_text img {
+    position: absolute;
+    top: 0; /* Ajuste conforme necessário */
+    left: 10; /* Ajuste conforme necessário */
+    width: 48px;
+    height: 48px;
+}
+
+.reservar_area
+{
+    position: relative;
+    width:279px;
+    height: 64px;
+    left: 1282px;
+    top: 439px;
+    border-radius: 32px;
+    color: #FECC00;
+}
+
+.reservar_area button
+{
+    position: relative;
+    width: 279px;
+    height: 64px;
+    top: 30px;
+    right: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    font-weight: 600px;
+    font-size: 20px;
+    font-style: normal;
+    border: none;
+    cursor: pointer;
+    border-radius: 32px;
+    background: #FECC00;
+}
+
+
+.date_picker1
+{
+    position: relative;
+    width: 418px;
+    height: 117px;
+    left: 1130px; 
+    top: 600px;
+}
+
+.date_picker1 .field_content
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: #FFF;
+    width: 418px;
+    height: 70px;
+    border-radius: 13px;
+    border: 2.67px #AAAAAA solid;
+}
+
+.field_content p
+{
+    position: absolute;
+    margin: 0;
+    width: 207px;
+    height: 34px;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: normal;
+    left: 65px;
+}
+
+.field_content .impressora
+{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 25px;
+    top: 20px;
+}
+
+
+.field_content .limpar
+{
+    position: absolute;
+    display: flex;
+    width: 26px;
+    height: 26px;
+    top: 20px;
+    left: 366px; /* Diminua este valor para mover .limpar mais para a direita */
+}
+
+
+.date_picker2
+{
+    position: relative;
+    width: 418px;
+    height: 117px;
+    left: 1130px; 
+    top: 700px;
+}
+
+.date_picker2 .field_content2
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: #FFF;
+    width: 418px;
+    height: 70px;
+    border-radius: 13px;
+    border: 2.67px #AAAAAA solid;
+}
+
+
+.date_picker2 .field_content2
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: #FFF;
+    width: 418px;
+    height: 70px;
+    border-radius: 13px;
+    border: 2.67px #AAAAAA solid;
+}
+
+.field_content2 p
+{
+    position: absolute;
+    margin: 0;
+    width: 207px;
+    height: 34px;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: normal;
+    left: 65px;
+}
+
+.field_content2 .impressora2
+{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    left: 25px;
+    top: 20px;
+}
+
+.field_content2 .limpar2
+{ 
+    position: absolute;
+    display: flex;
+    width: 26px;
+    height: 26px;
+    top: 20px;
+    left: 366px; /* Diminua este valor para mover .limpar mais para a direita */
+}
+
+.botao_cancelar
+{
+    position: relative;
+    width: 198px;
+    height: 45px;
+    top: 846px;
+    left: 1230px;
+}
+
+.botao_cancelar button
+{
+    position: relative;
+    width: 198px;
+    height: 45px;
+    top: 10px;
+    right: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    font-weight: 600px;
+    font-size: 20px;
+    font-style: normal;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+    background: #FECC00;
+    background: #EFEAD3;
+    box-shadow: -7.131px -7.131px 14.263px 0px #FFF, 7.131px 7.131px 14.263px 0px rgba(170, 170, 204, 0.50), 3.566px 3.566px 7.131px 0px rgba(170, 170, 204, 0.25);
+}
+
+.botao_confirmar
+{
+    position: relative;
+    width: 198px;
+    height: 45px;
+    top: 813px;
+    left: 1460px;
+}
+
+.botao_confirmar button
+{
+    position: relative;
+    width: 198px;
+    height: 45px;
+    top: 0px;
+    right: 100px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    font-weight: 600px;
+    font-size: 20px;
+    font-style: normal;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+    background: #FECC00;
+}
